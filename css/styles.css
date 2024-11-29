@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.fire-button { background-color: #ff4500; }
+.water-button { background-color: #1e90ff; }
+.grass-button { background-color: #32cd32; }
+.electric-button { background-color: #ffd700; }
+.ice-button { background-color: #00ced1; }
+.ground-button { background-color: #deb887; }
+.rock-button { background-color: #8b4513; }
+.fighting-button { background-color: #b22222; }
+.psychic-button { background-color: #ff1493; }
+.ghost-button { background-color: #6a5acd; }
+.dragon-button { background-color: #ff8c00; }
+.dark-button { background-color: #2f4f4f; }
+.steel-button { background-color: #708090; }
+.fairy-button { background-color: #ffb6c1; }
+
+main {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.pokemon-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-card img {
+    width: 170px;
+    height: 170px;
+}
+
+.pokemon-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    text-transform: capitalize;
+}
+
+.pokemon-id {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.pokemon-types {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.type-label {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.fire-type {
+    background-color: #ff4500;
+}
+.water-type {
+    background-color: #1e90ff;
+}
+.grass-type {
+    background-color: #32cd32;
+}
+.electric-type {
+    background-color: #ffd700;
+}
+.ice-type {
+    background-color: #00ced1;
+}
+.ground-type {
+    background-color: #deb887;
+}
+.rock-type {
+    background-color: #8b4513;
+}
+.fighting-type {
+    background-color: #b22222;
+}
+.psychic-type {
+    background-color: #ff1493;
+}
+.ghost-type {
+    background-color: #6a5acd;
+}
+.dragon-type {
+    background-color: #ff8c00;
+}
+.dark-type {
+    background-color: #2f4f4f;
+}
+.steel-type {
+    background-color: #708090;
+}
+.fairy-type {
+    background-color: #ffb6c1;
+}
+
+
+/* Search Bar Styles */
+#search-bar {
+    margin: 20px auto;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+}

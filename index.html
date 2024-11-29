@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pokedex</h1>
+        <img src="./img/logo.png" alt="Pokedex Logo">
+        <nav id="type-buttons">
+            <button class="type-button fire-button" onclick="fetchPokemonByType('fire')">Fire</button>
+            <button class="type-button water-button" onclick="fetchPokemonByType('water')">Water</button>
+            <button class="type-button grass-button" onclick="fetchPokemonByType('grass')">Grass</button>
+            <button class="type-button electric-button" onclick="fetchPokemonByType('electric')">Electric</button>
+            <button class="type-button ice-button" onclick="fetchPokemonByType('ice')">Ice</button>
+            <button class="type-button ground-button" onclick="fetchPokemonByType('ground')">Ground</button>
+            <button class="type-button rock-button" onclick="fetchPokemonByType('rock')">Rock</button>
+            <button class="type-button fighting-button" onclick="fetchPokemonByType('fighting')">Fighting</button>
+            <button class="type-button psychic-button" onclick="fetchPokemonByType('psychic')">Psychic</button>
+            <button class="type-button ghost-button" onclick="fetchPokemonByType('ghost')">Ghost</button>
+            <button class="type-button dragon-button" onclick="fetchPokemonByType('dragon')">Dragon</button>
+            <button class="type-button dark-button" onclick="fetchPokemonByType('dark')">Dark</button>
+            <button class="type-button steel-button" onclick="fetchPokemonByType('steel')">Steel</button>
+            <button class="type-button fairy-button" onclick="fetchPokemonByType('fairy')">Fairy</button>
+        </nav>
+        <!-- Search Bar -->
+        <input 
+            type="text" 
+            id="search-bar" 
+            placeholder="Search Pokémon by name..." 
+            oninput="searchAllPokemon()">
+    </header>
+    <main id="pokemon-cards">
+    </main>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
